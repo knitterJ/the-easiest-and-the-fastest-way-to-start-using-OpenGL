@@ -1,16 +1,11 @@
 a) Maybe you already have gcc installed on your machine?
 You can check that by introducing in the command prompt:
-where gcc
-
-If it says:
-........................
-continue the following steps.
-
-Otherwise go to the point 2)
+https://github.com/knitterJ/the-easiest-and-the-fastest-way-to-start-using-OpenGL/blob/main/Windows/1.InstallMinGW/gcc%20and%20g%2B%2B%20not%20found.gif
+If MinGW wasn't found like above, go to the point b). Otherwise, go to the point 2.GLFW
 
 b) Download minGW from the official website
 https://osdn.net/projects/mingw/downloads/68260/mingw-get-setup.exe/
-The dowload should start automatically 
+The dowload should start automatically
 
 WARNING
 There's another dev environment, that contains built-in C++ compiler called Cygwin, but don't dare to install it. The installation process takes  ~10 hours.
