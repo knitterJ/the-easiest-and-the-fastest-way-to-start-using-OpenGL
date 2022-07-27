@@ -1,7 +1,9 @@
 a) Maybe you already have gcc installed on your machine?
 You can check that by introducing in the command prompt:
-https://github.com/knitterJ/the-easiest-and-the-fastest-way-to-start-using-OpenGL/blob/main/Windows/1.InstallMinGW/gcc%20and%20g%2B%2B%20not%20found.gif
-If MinGW wasn't found like above, go to the point b). Otherwise, go to the point 2.GLFW
+![MinGW not found](https://github.com/knitterJ/the-easiest-and-the-fastest-way-to-start-using-OpenGL/blob/main/Windows/1.InstallMinGW/gcc%20and%20g%2B%2B%20not%20found.gif)
+
+
+If MinGW compiler wasn't found like in the example above, go to the point b) (here markup should be placed). Otherwise, go to the point 2.GLFW (here markup should be placed) 
 
 b) Download minGW from the official website
 https://osdn.net/projects/mingw/downloads/68260/mingw-get-setup.exe/
