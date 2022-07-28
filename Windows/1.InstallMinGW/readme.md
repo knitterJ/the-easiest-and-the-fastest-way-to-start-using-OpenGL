@@ -1,6 +1,6 @@
 a) Maybe you already have gcc installed on your machine?
 You can check that by introducing in the command prompt:
-![MinGW not found](https://github.com/knitterJ/the-easiest-and-the-fastest-way-to-start-using-OpenGL/blob/main/Windows/1.InstallMinGW/gcc%20and%20g%2B%2B%20not%20found.gif)
+![MinGW not found](https://github.com/knitterJ/the-easiest-and-the-fastest-way-to-start-using-OpenGL/blob/main/Windows/1.InstallMinGW/a.gif)
 
 
 If MinGW compiler wasn't found like in the example above, go to the point b) (here markup should be placed). Otherwise, go to the point 2.GLFW (here markup should be placed) 
@@ -21,6 +21,6 @@ Add the directory of MinGW (C:\MinGW\bin) to your PATH. Please be careful with t
 
 f) Check in the command prompt whether MinGW was properly installed and added to the PATH:
 
-![MinGW properly installed](https://github.com/knitterJ/the-easiest-and-the-fastest-way-to-start-using-OpenGL/blob/main/Windows/1.InstallMinGW/gcc%20and%20g%2B%2B%20are%20present%20.gif)
+![MinGW properly installed](https://github.com/knitterJ/the-easiest-and-the-fastest-way-to-start-using-OpenGL/blob/main/Windows/1.InstallMinGW/f.gif)
 
 What's interesting OpenGL is already preinstalled in your Windows, but we still need to add two libs.
