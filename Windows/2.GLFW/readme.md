@@ -1,7 +1,7 @@
 Next item to configure is GLFW. Based on the official specification:
 
 GLFW is a toolkit built on top of OpenGL that handles tasks, such as opening an OpenGL window and reading keyboard and mouse input.
-
+So basically, if you want to display a window and see any result, toolkit like GLFW needs to be properly configured. List of alternative toolkits can be found here: https://www.opengl.org/resources/libraries/windowtoolkits/ 
 
 a) Download 32-bit Windows binaries from official glfw website https://www.glfw.org/download.html and unpack it,
 
