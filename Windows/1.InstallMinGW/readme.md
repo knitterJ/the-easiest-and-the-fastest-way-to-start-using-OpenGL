@@ -23,6 +23,3 @@ e) Add the directory of MinGW (C:\MinGW\bin) to your PATH.
 f) Check in the command prompt, whether MinGW was properly installed and added to the PATH:
 
 ![MinGW properly installed](https://github.com/knitterJ/the-easiest-and-the-fastest-way-to-start-using-OpenGL/blob/main/Windows/1.InstallMinGW/f.gif)
---------------------
-WARNING
-There's another C++ compiler called mingw-w64, which is built-in to Cygwin. Don't dare to install Cygwin, as the installation process takes  ~10 hours.
