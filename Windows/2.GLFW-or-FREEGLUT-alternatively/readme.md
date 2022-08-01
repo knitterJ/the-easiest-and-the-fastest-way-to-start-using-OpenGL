@@ -1,8 +1,8 @@
 Next item to configure is GLFW. Based on the official specification:
 
 GLFW is a toolkit, built on top of OpenGL, that handles tasks such as opening an OpenGL window and reading keyboard and mouse input.
-So basically, if you want to display a window and see any result, toolkit like GLFW needs to be properly configured. Another very popular toolkit similar to GLFW is Freeglut. Because it's possible to find programs and tutorials with both of them, I wrote tutorial how to configure FreeGlut as well. With the little program that is included to each part, you can test the configuration of each, seperately.
-The reason why I explained how to configure the alternative library, is that there are several distributions of the same tools that need to be configured in order to use OpenGL freely. You never know which one you encounter in the tutorials or Github repos. It's definitely good to know how to deal with the 2 most popular ones. List of all toolkits can be found here: https://www.opengl.org/resources/libraries/windowtoolkits/.
+So basically, if you want to display a window and see any result, toolkit like GLFW needs to be properly configured. Another very popular toolkit similar to GLFW is Freeglut. As you encounter programs and tutorials based on both of them, I prepared instructions how to configure Freeglut as well. 
+List of further alternative toolkits can be found here: https://www.opengl.org/resources/libraries/windowtoolkits/.
 
 But first let's come back to the configuration of GLFW.
 a) Download 32-bit Windows binaries from the official GLFW website https://www.glfw.org/download.html and unpack the zip,
