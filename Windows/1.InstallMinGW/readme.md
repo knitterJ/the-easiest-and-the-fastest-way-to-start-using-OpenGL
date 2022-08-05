@@ -20,6 +20,6 @@ e) Add the directory of MinGW (C:\MinGW\bin) to your PATH.
 ![PATH](https://github.com/knitterJ/the-easiest-and-the-fastest-way-to-start-using-OpenGL/blob/main/Windows/1.InstallMinGW/e.png)
 
 
-f) Check in the command prompt, whether MinGW was properly installed and added to the PATH:
+f) Check in the newly opened command prompt, whether MinGW was properly installed and added to the PATH:
 
 ![MinGW properly installed](https://github.com/knitterJ/the-easiest-and-the-fastest-way-to-start-using-OpenGL/blob/main/Windows/1.InstallMinGW/f.gif)
