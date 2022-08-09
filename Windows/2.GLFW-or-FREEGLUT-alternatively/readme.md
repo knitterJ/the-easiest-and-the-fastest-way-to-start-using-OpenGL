@@ -5,7 +5,7 @@ So basically, if you want to display a window and see any result, toolkit like G
 List of further alternative toolkits can be found here: https://www.opengl.org/resources/libraries/windowtoolkits/.
 
 But first let's come back to the configuration of GLFW.
-a) Download 32-bit Windows binaries from the official GLFW website https://www.glfw.org/download.html and unpack the zip,
+a) Download 32-bit Windows binaries (no matter whether you have 64 or 32-bit Windows) from the official GLFW website https://www.glfw.org/download.html and unpack the zip,
 
 b) Go to include folder, copy GLFW and paste it to `C:\MinGW\include`
 
