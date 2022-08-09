@@ -7,16 +7,24 @@ List of further alternative toolkits can be found here: https://www.opengl.org/r
 But first let's come back to the configuration of GLFW.
 a) Download 32-bit Windows binaries from the official GLFW website https://www.glfw.org/download.html and unpack the zip,
 
-b) Go to include folder, copy GLFW and paste it to C:\MinGW\include
+b) Go to include folder, copy GLFW and paste it to `C:\MinGW\include`
+
+![](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/blob/main/Windows/2.GLFW-or-FREEGLUT-alternatively/b.gif)
 
 c) Next go to lib-mingw folder:
-copy glfw3.dll and paste it to C:\MinGW\bin
+copy glfw3.dll and paste it to `C:\MinGW\bin`
+
+![](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/blob/main/Windows/2.GLFW-or-FREEGLUT-alternatively/c.png)
 
 d) From the same lib-mingw folder:
-copy libglfw3dll.a and paste it to C:\MinGW\lib
+copy libglfw3dll.a and paste it to `C:\MinGW\lib`
+
+![](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/blob/main/Windows/2.GLFW-or-FREEGLUT-alternatively/d.png)
 
 e) Download the following code: https://onlinegdb.com/evR9UgF3O or copy paste the same code below:
-`#include <GLFW/glfw3.h>
+
+```
+#include <GLFW/glfw3.h>
 
 int main(void)
 {
@@ -54,7 +62,7 @@ int main(void)
     return 0;
 }
 
-`
+```
 
 
 and compile it with:
@@ -62,14 +70,9 @@ and compile it with:
 `g++ main.cpp -lopengl32 -lglfw3dll`
 
 
+WARNING! DON'T COMPILE YOUR CODE WITH -lglfw3 like many tutorials indicate, because libglfw3.a is a static library that is not correctly configured for gcc. More in this Stackoverflow thread: https://stackoverflow.com/questions/22623087/undefined-reference-errors-when-linking-glfw-on-mingw
 
+![](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/blob/main/Windows/2.GLFW-or-FREEGLUT-alternatively/f.png)
 
-WARNING! DON'T COMPILE YOUR CODE WITH -lglfw3 like many tutorials indicate, because libglfw3.a is a static library that is not correctly configured for gcc. More to read about it in this Stackoverflow thread: https://stackoverflow.com/questions/22623087/undefined-reference-errors-when-linking-glfw-on-mingw
+f) If it compiles properly, then move to [3.GLAD](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/tree/main/Windows/3.GLAD-or-GLEW-alternatively)
 
-
-If it compiles properly, then move to the point number 3.GLAD
-
-If it yields errors check the most common errors in the FAQ below:
-
-
-FOR THE FAQ...
