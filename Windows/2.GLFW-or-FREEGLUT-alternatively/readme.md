@@ -1,7 +1,7 @@
 ## Intro
 
 Next item to configure is GLFW. Based on the official specification GLFW is a toolkit, that connects OpenGL with your operating system. It's responsible for the tasks such as opening window or reading keyboard input.
-So basically, if you want to display a window and see any result, toolkit like GLFW needs to be properly configured. Another very popular toolkit similar to GLFW is Freeglut. As you encounter programs and tutorials based on both of them, I also prepared instructions [how to configure Freeglut](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/tree/main/Windows/FREEGLUT). So if your code contains `include <GL/glut.h>` or `include <GL/freeglut.h>` go directly to the link above. 
+So basically, if you want to display a window and see any result, toolkit like GLFW needs to be properly configured. Another very popular toolkit similar to GLFW is called Freeglut. As you encounter programs and tutorials based on both of them, I also prepared instructions [how to configure Freeglut](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/tree/main/Windows/FREEGLUT). So if your code contains `include <GL/glut.h>` or `include <GL/freeglut.h>` go directly to the link above. 
 
 ## How to configure GLFW
 
