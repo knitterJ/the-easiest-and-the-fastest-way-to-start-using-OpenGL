@@ -9,17 +9,17 @@ a) Download 32-bit Windows binaries from the official GLFW website https://www.g
 
 b) Go to include folder, copy GLFW and paste it to `C:\MinGW\include`
 
-![](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/blob/main/Windows/2.GLFW-or-FREEGLUT-alternatively/b2.gif)
+![](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/blob/main/Windows/2.GLFW-or-FREEGLUT-alternatively/b.gif)
 
 c) Next go to lib-mingw folder:
 copy glfw3.dll and paste it to `C:\MinGW\bin`
 
-![](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/blob/main/Windows/2.GLFW-or-FREEGLUT-alternatively/c2.png)
+![](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/blob/main/Windows/2.GLFW-or-FREEGLUT-alternatively/c.png)
 
 d) From the same lib-mingw folder:
 copy libglfw3dll.a and paste it to `C:\MinGW\lib`
 
-![](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/blob/main/Windows/2.GLFW-or-FREEGLUT-alternatively/d2.png)
+![](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/blob/main/Windows/2.GLFW-or-FREEGLUT-alternatively/d.png)
 
 e) Download the following code: https://onlinegdb.com/evR9UgF3O or copy paste the same code below:
 
