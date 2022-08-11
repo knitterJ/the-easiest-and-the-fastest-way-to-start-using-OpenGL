@@ -14,12 +14,12 @@ b) Go to include folder, copy GLFW and paste it to `C:\MinGW\include`
 c) Next go to lib-mingw folder:
 copy glfw3.dll and paste it to `C:\MinGW\bin`
 
-![](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/blob/main/Windows/2.GLFW-or-FREEGLUT-alternatively/c.png)
+![](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/blob/main/Windows/2.GLFW-or-FREEGLUT-alternatively/c2.png)
 
 d) From the same lib-mingw folder:
 copy libglfw3dll.a and paste it to `C:\MinGW\lib`
 
-![](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/blob/main/Windows/2.GLFW-or-FREEGLUT-alternatively/d.png)
+![](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/blob/main/Windows/2.GLFW-or-FREEGLUT-alternatively/d2.png)
 
 e) Download the following code: https://onlinegdb.com/evR9UgF3O or copy paste the same code below:
 
