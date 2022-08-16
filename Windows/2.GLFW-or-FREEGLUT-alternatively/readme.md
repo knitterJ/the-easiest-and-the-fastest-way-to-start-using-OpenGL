@@ -5,23 +5,23 @@ So basically, if you want to display a window to see the result of your code, to
 
 ## How to configure GLFW
 
-a) Download 32-bit Windows binaries from the official GLFW website https://www.glfw.org/download.html and unpack the zip (no matter whether you have 64 or 32-bit Windows),
+1/5) Download 32-bit Windows binaries from the official GLFW website https://www.glfw.org/download.html and unpack the zip (no matter whether you have 64 or 32-bit Windows),
 
-b) Go to include folder, copy GLFW and paste it to `C:\MinGW\include`
+2/5) Go to include folder, copy GLFW and paste it to `C:\MinGW\include`
 
 ![](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/blob/main/Windows/2.GLFW-or-FREEGLUT-alternatively/b.gif)
 
-c) Next go to lib-mingw folder:
+3/5) Next go to lib-mingw folder:
 copy glfw3.dll and paste it to `C:\MinGW\bin`
 
 ![](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/blob/main/Windows/2.GLFW-or-FREEGLUT-alternatively/c.png)
 
-d) From the same lib-mingw folder:
+4/5) From the same lib-mingw folder:
 copy libglfw3dll.a and paste it to `C:\MinGW\lib`
 
 ![](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/blob/main/Windows/2.GLFW-or-FREEGLUT-alternatively/d.png)
 
-e) Download the following code: https://onlinegdb.com/evR9UgF3O or copy paste the same code below:
+5/5) Test the configuration with the file below (downloadable easily from (here)[https://onlinegdb.com/evR9UgF3O]):
 
 ```
 #include <GLFW/glfw3.h>
@@ -74,5 +74,5 @@ WARNING! DON'T COMPILE YOUR CODE WITH -lglfw3 like many tutorials indicate, beca
 
 ![](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/blob/main/Windows/2.GLFW-or-FREEGLUT-alternatively/f.png)
 
-f) If it compiles properly, then move to [3.GLAD](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/tree/main/Windows/3.GLAD-or-GLEW-alternatively)
+If it compiles properly, then move to [3.GLAD](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/tree/main/Windows/3.GLAD-or-GLEW-alternatively)
 
