@@ -29,7 +29,7 @@ This way static library, which can be used universally in every project, was cre
 
 5/6) Now it's possible to compile C++ programs with the reference to `-lglad` library 
 
-6/6) Test the configuration with the following file (downloadable easily from [here]()): 
+6/6) Test the configuration with the following file (downloadable easily from [there should be proper link here]()): 
 
 // Code placeholder
 
