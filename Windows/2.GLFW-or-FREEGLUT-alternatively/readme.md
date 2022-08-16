@@ -21,7 +21,7 @@ copy libglfw3dll.a and paste it to `C:\MinGW\lib`
 
 ![](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/blob/main/Windows/2.GLFW-or-FREEGLUT-alternatively/d.png)
 
-5/5) Test the configuration with the file below (downloadable easily from (here)[https://onlinegdb.com/evR9UgF3O]):
+5/5) Test the configuration with the file below (downloadable easily from [here](https://onlinegdb.com/evR9UgF3O)):
 
 ```
 #include <GLFW/glfw3.h>
