@@ -5,14 +5,14 @@ What's interesting, OpenGL is preinstalled in your Windows, but it's still neces
 
 ## GLAD configuration
 
-1/6) Go to [official Glad website](https://glad.dav1d.de/) and generate GLAD for the newest version of OpenGL (OpenGL 4.6 was released in 2017, so I assume that you don't need to download earlier version). Click on glad.zip in order to start download and then unzip the package.
-![1/6](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/blob/main/Windows/3.GLAD-or-GLEW-alternatively/1.png)
+1/5) Go to [official Glad website](https://glad.dav1d.de/) and generate GLAD for the newest version of OpenGL (OpenGL 4.6 was released in 2017, so I assume that you don't need to download earlier version). Click on glad.zip in order to start download and then unzip the package.
+![1/5](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/blob/main/Windows/3.GLAD-or-GLEW-alternatively/1.png)
 
-2/6) Enter the newly created folder and copy 2 folders located in the `include` folder (meaning KHR and glad) to `C:\MinGW\include`
+2/5) Enter the newly created folder and copy 2 folders located in the `include` folder (meaning KHR and glad) to `C:\MinGW\include`
 
-![2/6](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/blob/main/Windows/3.GLAD-or-GLEW-alternatively/2.gif)
+![2/5](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/blob/main/Windows/3.GLAD-or-GLEW-alternatively/2.gif)
 
-3/6) Open new command prompt and navigate to `src` folder where glad.c file is located. Then introduce the following command:
+3/5) Open new command prompt and navigate to `src` folder where glad.c file is located. Then introduce the following command:
 
 `gcc -c glad.c`
 
@@ -20,17 +20,17 @@ and right after the next command:
 
 `ar rcs libglad.a glad.o`
 
-![3/6](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/blob/main/Windows/3.GLAD-or-GLEW-alternatively/3.gif)
+![3/5](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/blob/main/Windows/3.GLAD-or-GLEW-alternatively/3.gif)
 
 This way static library (libglad.a), which can be used universally in every project, was created.
 
-4/6) Move libglad.a file to `C:\MinGW\lib`
+4/5) Move libglad.a file to `C:\MinGW\lib`
 
-![4/6](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/blob/main/Windows/3.GLAD-or-GLEW-alternatively/4.png)
+![4/5](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/blob/main/Windows/3.GLAD-or-GLEW-alternatively/4.png)
 
-5/6) Now it's possible to compile C++ programs with the reference to `-lglad` library
+Now it's possible to compile C++ programs with the reference to `-lglad` library
 
-6/6) Test the configuration with the following file (downloadable easily from [6/6](https://onlinegdb.com/jQ7vm30xU)):
+5/5) Test the configuration with the following file (downloadable easily from [here](https://onlinegdb.com/jQ7vm30xU)):
 
 ```
 
@@ -121,8 +121,8 @@ void framebuffer_size_callback(GLFWwindow* window, int width, int height)
 }
 ```
 
- `g++ main.cpp -lglad -lglfw3`
+ `g++ main.cpp -lglad -lglfw3dll`
 
-image placeholder
+![](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/blob/main/Windows/3.GLAD-or-GLEW-alternatively/5.png)
 
 This way you configured successfully libraries, which allows you to use OpenGL.
