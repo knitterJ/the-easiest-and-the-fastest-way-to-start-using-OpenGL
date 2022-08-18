@@ -1,7 +1,7 @@
 ## Intro
 
 GLFW is a toolkit, that connects OpenGL with your operating system. It's responsible for the tasks such as opening window or reading keyboard input.
-So basically, if you want to display a window to see the result of your code, toolkit like GLFW needs to be properly configured. Another popular toolkit, alternative for GLFW is called Freeglut. As you encounter programs and tutorials based on both of them, I also prepared instructions [how to configure Freeglut](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/tree/main/Windows/FREEGLUT). So if your code contains `#include <GL/glut.h>` or `#include <GL/freeglut.h>` instead of `#include <GLFW/glfw3.h>` click directly the above link. 
+So basically, if you want to display a window to see the result of your code, toolkit like GLFW needs to be properly configured. Another popular toolkit, alternative for GLFW is called Freeglut. As you encounter programs and tutorials based on both of them, I also prepared instructions [how to configure Freeglut](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/tree/main/Windows/FREEGLUT). So if your code contains `#include <GL/glut.h>` or `#include <GL/freeglut.h>` instead of `#include <GLFW/glfw3.h>` click directly the above link.
 
 ## How to configure GLFW
 
@@ -9,17 +9,17 @@ So basically, if you want to display a window to see the result of your code, to
 
 2/5) Go to include folder, copy GLFW and paste it to `C:\MinGW\include`
 
-![](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/blob/main/Windows/2.GLFW-or-FREEGLUT-alternatively/b.gif)
+![](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/blob/main/Windows/2.GLFW-or-FREEGLUT-alternatively/2.gif)
 
 3/5) Next go to lib-mingw folder:
 copy glfw3.dll and paste it to `C:\MinGW\bin`
 
-![](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/blob/main/Windows/2.GLFW-or-FREEGLUT-alternatively/c.png)
+![](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/blob/main/Windows/2.GLFW-or-FREEGLUT-alternatively/3.png)
 
 4/5) From the same lib-mingw folder:
 copy libglfw3dll.a and paste it to `C:\MinGW\lib`
 
-![](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/blob/main/Windows/2.GLFW-or-FREEGLUT-alternatively/d.png)
+![](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/blob/main/Windows/2.GLFW-or-FREEGLUT-alternatively/4.png)
 
 5/5) Test the configuration with the file below (downloadable easily from [here](https://onlinegdb.com/evR9UgF3O)):
 
@@ -72,7 +72,6 @@ and compile it with:
 
 WARNING! DON'T COMPILE YOUR CODE WITH -lglfw3 like many tutorials indicate, because libglfw3.a is a static library that is not correctly configured for gcc environment. More in this Stackoverflow thread: https://stackoverflow.com/questions/22623087/undefined-reference-errors-when-linking-glfw-on-mingw
 
-![](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/blob/main/Windows/2.GLFW-or-FREEGLUT-alternatively/f.png)
+![](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/blob/main/Windows/2.GLFW-or-FREEGLUT-alternatively/5.png)
 
 If it compiles properly, then move to [3.GLAD](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/tree/main/Windows/3.GLAD-or-GLEW-alternatively)
-
