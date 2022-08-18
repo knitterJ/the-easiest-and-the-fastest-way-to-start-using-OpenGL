@@ -126,4 +126,4 @@ void framebuffer_size_callback(GLFWwindow* window, int width, int height)
 ![](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/blob/main/Windows/3.GLAD-or-GLEW-alternatively/5.png)
 
 This way you configured successfully libraries, which allows to use OpenGL.
-If you want to compile your OpenGL programs with a hit of a button, go to the last section, where I explain [how to configure Atom text editor](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/tree/main/Windows/4.Bonus-atom-text-editor-configuration).
+If you want to compile your OpenGL programs with a hit of a button, go to the bonus section, where I explain [how to configure Atom text editor](https://github.com/knitterJ/the-easiest-way-to-start-using-OpenGL-MinGW-glfw-or-freeglut-glad-or-glew-no-cmake/tree/main/Windows/4.Bonus-atom-text-editor-configuration).
