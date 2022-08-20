@@ -1,6 +1,6 @@
 ## Intro
 
-Have you ever wanted to run simple Hello-Triangle program, that contains OpenGL functions and you had to go through the configuration hell? 
+Have you ever tried to run simple "Hello-Triangle" program, that contains OpenGL functions and you had to go through the configuration hell? 
 If so, this tutorial is prepared for you. I explain how to configure OpenGL for both Windows and Linux without the necesity to install Visual Studio or configure Cmake.
 
 ## How you should think of OpenGL?  
