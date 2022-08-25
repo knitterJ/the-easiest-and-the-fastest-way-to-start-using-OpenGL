@@ -11,6 +11,6 @@
 -lglad -lglfw3dll
 
 
-4/...) Open up your file or project  
+4/...) Open up a file   
 
 5/...) Hit f5 key 
