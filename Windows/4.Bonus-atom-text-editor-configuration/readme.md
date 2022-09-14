@@ -8,7 +8,7 @@
 
 3/5) Add libraries that compiler has to use
 
--lglad -lglfw3dll
+-lglad -lglfw3dll (some others, if the example requires) 
 
 
 4/5) Open up a file   
